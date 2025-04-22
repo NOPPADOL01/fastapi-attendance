@@ -3433,3 +3433,467 @@
 2025-04-22 13:45:08,677 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
 2025-04-22 13:45:08,741 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
 2025-04-22 13:45:08,742 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:56:16,583 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/cdata?SN=COVO240160167&options=all&language=76&pushver=2.4.1&PushOptionsFlag=1 from 192.168.1.71
+2025-04-22 13:56:16,584 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:56:16,695 - INFO - HTTP Request: GET http://localhost/iclock/cdata?SN=COVO240160167&options=all&language=76&pushver=2.4.1&PushOptionsFlag=1 "HTTP/1.1 200 OK"
+2025-04-22 13:56:16,696 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:56:16,885 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/ping?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:56:16,886 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:56:16,904 - INFO - HTTP Request: GET http://localhost/iclock/ping?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:56:16,906 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:56:17,621 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167&INFO=ZAM180-NF28VA-Ver3.0.42,84,133,3167,192.168.1.71,10,39,12,78,11110,0,1,0 from 192.168.1.71
+2025-04-22 13:56:17,621 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:56:17,716 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167&INFO=ZAM180-NF28VA-Ver3.0.42,84,133,3167,192.168.1.71,10,39,12,78,11110,0,1,0 "HTTP/1.1 200 OK"
+2025-04-22 13:56:17,717 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:56:22,647 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:56:22,647 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:56:22,701 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:56:22,703 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:56:26,666 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:56:26,666 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:56:26,722 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:56:26,723 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:56:31,683 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:56:31,684 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:56:31,732 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:56:31,733 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:56:36,690 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:56:36,690 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:56:36,738 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:56:36,739 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:56:42,595 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:56:42,595 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:56:42,647 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:56:42,648 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:56:48,636 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:56:48,637 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:56:48,694 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:56:48,695 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:56:55,656 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:56:55,656 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:56:55,708 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:56:55,708 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:57:02,659 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:57:02,659 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:57:02,713 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:57:02,713 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:57:10,711 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:57:10,712 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:57:10,867 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:57:10,868 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:57:20,637 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:57:20,638 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:57:20,689 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:57:20,690 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:57:29,698 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:57:29,698 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:57:29,755 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:57:29,757 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:57:38,620 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:57:38,620 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:57:38,678 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:57:38,679 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:57:48,602 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:57:48,603 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:57:48,659 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:57:48,659 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:57:58,660 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:57:58,660 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:57:58,719 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:57:58,720 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:58:08,638 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:58:08,638 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:58:08,690 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:58:08,691 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:58:20,372 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/ping?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:58:20,372 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:58:20,389 - INFO - HTTP Request: GET http://localhost/iclock/ping?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:58:20,390 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:58:20,707 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:58:20,708 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:58:20,859 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:58:20,859 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:58:30,645 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:58:30,646 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:58:30,699 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:58:30,699 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:58:40,690 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:58:40,690 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:58:40,739 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:58:40,740 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:58:50,623 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:58:50,623 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:58:50,688 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:58:50,688 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:59:00,650 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:59:00,650 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:59:00,809 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:59:00,810 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:59:10,622 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:59:10,622 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:59:10,675 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:59:10,676 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:59:21,624 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:59:21,625 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:59:21,643 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/ping?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:59:21,643 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:59:21,666 - INFO - HTTP Request: GET http://localhost/iclock/ping?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:59:21,666 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:59:21,679 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:59:21,680 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:59:31,612 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:59:31,612 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:59:31,662 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:59:31,664 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:59:41,622 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:59:41,622 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:59:41,676 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:59:41,677 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 13:59:51,607 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 13:59:51,607 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 13:59:51,656 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 13:59:51,656 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:00:01,661 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:00:01,662 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:00:01,715 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:00:01,716 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:00:11,664 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:00:11,665 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:00:11,713 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:00:11,714 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:00:22,663 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:00:22,663 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:00:22,714 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:00:22,715 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:00:32,783 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:00:32,784 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:00:32,832 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:00:32,834 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:00:42,735 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:00:42,735 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:00:42,789 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:00:42,790 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:00:52,709 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:00:52,709 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:00:52,873 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:00:52,874 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:01:02,805 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:01:02,805 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:01:02,856 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:01:02,858 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:01:12,777 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:01:12,777 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:01:12,825 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:01:12,826 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:01:23,761 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:01:23,762 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:01:23,823 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:01:23,824 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:01:33,751 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:01:33,752 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:01:33,803 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:01:33,803 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:01:43,719 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:01:43,719 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:01:43,776 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:01:43,777 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:01:53,810 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:01:53,811 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:01:53,862 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:01:53,863 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:02:03,694 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:02:03,694 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:02:03,743 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:02:03,743 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:02:13,732 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:02:13,732 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:02:13,782 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:02:13,783 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:02:24,774 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:02:24,775 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:02:24,824 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:02:24,825 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:02:34,819 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:02:34,821 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:02:34,878 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:02:34,879 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:02:44,811 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:02:44,811 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:02:44,869 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:02:44,869 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:02:54,768 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:02:54,769 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:02:54,932 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:02:54,933 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:03:04,817 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:03:04,818 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:03:04,871 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:03:04,872 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:03:14,786 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:03:14,786 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:03:14,833 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:03:14,834 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:03:25,735 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:03:25,735 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:03:25,793 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:03:25,793 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:03:35,816 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:03:35,817 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:03:35,863 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:03:35,864 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:03:45,821 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:03:45,823 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:03:45,988 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:03:45,989 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:03:55,817 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:03:55,818 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:03:55,870 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:03:55,870 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:04:05,756 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:04:05,756 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:04:05,801 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:04:05,802 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:04:15,696 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:04:15,696 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:04:15,744 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:04:15,745 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:14:37,725 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/cdata?SN=COVO240160167&options=all&language=76&pushver=2.4.1&PushOptionsFlag=1 from 192.168.1.71
+2025-04-22 14:14:37,727 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:14:37,838 - INFO - HTTP Request: GET http://localhost/iclock/cdata?SN=COVO240160167&options=all&language=76&pushver=2.4.1&PushOptionsFlag=1 "HTTP/1.1 200 OK"
+2025-04-22 14:14:37,838 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:14:38,506 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/ping?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:14:38,506 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:14:38,535 - INFO - HTTP Request: GET http://localhost/iclock/ping?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:14:38,535 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:14:38,857 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167&INFO=ZAM180-NF28VA-Ver3.0.42,84,133,3167,192.168.1.71,10,39,12,78,11110,0,1,0 from 192.168.1.71
+2025-04-22 14:14:38,857 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:14:38,948 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167&INFO=ZAM180-NF28VA-Ver3.0.42,84,133,3167,192.168.1.71,10,39,12,78,11110,0,1,0 "HTTP/1.1 200 OK"
+2025-04-22 14:14:38,949 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:14:40,098 - INFO - Incoming request: POST http://192.168.1.207:9000/iclock/cdata?SN=COVO240160167&table=OPERLOG&Stamp=9999 from 192.168.1.71
+2025-04-22 14:14:40,098 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*', 'content-type': 'text/plain', 'content-length': '78'}
+2025-04-22 14:14:40,176 - INFO - HTTP Request: POST http://localhost/iclock/cdata?SN=COVO240160167&table=OPERLOG&Stamp=9999 "HTTP/1.1 200 OK"
+2025-04-22 14:14:40,176 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:14:40,177 - INFO - Scan - PIN: OPLOG 3, Name: 0, Time: 2025-04-22 14:09:20
+2025-04-22 14:14:51,775 - INFO - LINE response: 200, {"sentMessages":[{"id":"557800132561863023","quoteToken":"7vm4JMrDmxMww4fVK7VdhbfpolkKGXEX9DZvLTO2vTZKNhxRTcHAN8veZofcby7k3ErVaCOy1N4nbyDVyalezCZhrTwqjVofwJIJ8ZLf81364ie_t-QvVUZYE1o570EKK6mnscfJnKgqVEToPEX4Xw"}]}
+2025-04-22 14:14:51,777 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/ping?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:14:51,777 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:14:51,799 - INFO - HTTP Request: GET http://localhost/iclock/ping?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:14:51,800 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:14:54,825 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:14:54,825 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:14:54,898 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:14:54,899 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:14:58,751 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:14:58,751 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:14:58,799 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:14:58,800 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:15:03,839 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:15:03,840 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:15:03,993 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:15:03,994 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:15:08,736 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:15:08,738 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:15:08,786 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:15:08,787 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:15:08,838 - INFO - Incoming request: POST http://192.168.1.207:9000/iclock/devicecmd?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:15:08,838 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*', 'content-type': 'application/octet-stream', 'content-length': '25'}
+2025-04-22 14:15:08,914 - INFO - HTTP Request: POST http://localhost/iclock/devicecmd?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:15:08,914 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:15:09,049 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:15:09,050 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:15:09,109 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:15:09,110 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:15:09,782 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:15:09,783 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:15:09,925 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:15:09,926 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:15:10,836 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:15:10,837 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:15:10,994 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:15:10,995 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:15:54,590 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/cdata?SN=COVO240160167&options=all&language=76&pushver=2.4.1&PushOptionsFlag=1 from 192.168.1.71
+2025-04-22 14:15:54,591 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:15:54,626 - INFO - HTTP Request: GET http://localhost/iclock/cdata?SN=COVO240160167&options=all&language=76&pushver=2.4.1&PushOptionsFlag=1 "HTTP/1.1 200 OK"
+2025-04-22 14:15:54,626 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:15:54,847 - INFO - Incoming request: POST http://192.168.1.207:9000/iclock/cdata?SN=COVO240160167&table=options from 192.168.1.71
+2025-04-22 14:15:54,847 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*', 'content-type': 'text/plain', 'content-length': '1099'}
+2025-04-22 14:15:55,033 - INFO - HTTP Request: POST http://localhost/iclock/cdata?SN=COVO240160167&table=options "HTTP/1.1 200 OK"
+2025-04-22 14:15:55,034 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:15:55,251 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167&INFO=ZAM180-NF28VA-Ver3.0.42,84,133,3167,192.168.1.71,10,39,12,78,11110,0,1,0 from 192.168.1.71
+2025-04-22 14:15:55,251 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:15:55,342 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167&INFO=ZAM180-NF28VA-Ver3.0.42,84,133,3167,192.168.1.71,10,39,12,78,11110,0,1,0 "HTTP/1.1 200 OK"
+2025-04-22 14:15:55,343 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:15:55,556 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:15:55,557 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:15:55,609 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:15:55,610 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:15:57,482 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:15:57,482 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:15:57,542 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:15:57,543 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:15:59,470 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:15:59,471 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:15:59,519 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:15:59,519 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:16:02,473 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:16:02,473 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:16:02,520 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:16:02,520 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:16:05,474 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:16:05,475 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:16:05,526 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:16:05,526 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:16:09,471 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:16:09,471 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:16:09,522 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:16:09,522 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:16:13,505 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:16:13,506 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:16:13,553 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:16:13,554 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:16:18,396 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:16:18,396 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:16:18,442 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:16:18,443 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:16:23,396 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:16:23,396 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:16:23,448 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:16:23,449 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:16:29,412 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:16:29,412 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:16:29,467 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:16:29,467 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:16:35,462 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:16:35,463 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:16:35,520 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:16:35,521 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:16:42,493 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:16:42,493 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:16:42,664 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:16:42,664 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:16:49,449 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:16:49,449 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:16:49,505 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:16:49,506 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:16:55,875 - INFO - Incoming request: POST http://192.168.1.207:9000/iclock/cdata?SN=COVO240160167&table=OPERLOG&Stamp=9999 from 192.168.1.71
+2025-04-22 14:16:55,876 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*', 'content-type': 'text/plain', 'content-length': '116'}
+2025-04-22 14:16:55,969 - INFO - HTTP Request: POST http://localhost/iclock/cdata?SN=COVO240160167&table=OPERLOG&Stamp=9999 "HTTP/1.1 200 OK"
+2025-04-22 14:16:55,970 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:16:55,971 - INFO - Scan - PIN: OPLOG 0, Name: 0, Time: 2025-04-22 14:15:39
+2025-04-22 14:16:56,215 - INFO - LINE response: 200, {"sentMessages":[{"id":"557800341438726318","quoteToken":"PJxf6LIew5jDY4hETTQkfX1UXR0XgfsaY_gN5HiFu5NCNGkKNAqaM-WyyOa1KNibXJs9kvMoxFdkJHQ0bnElF0GeQs8mNHlXZpBGvskz7QkHjZALhkvJ0zK8mMQiwfiBG9r4u2L7YG_bxaO7Pr5SHA"}]}
+2025-04-22 14:16:57,452 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:16:57,454 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:16:57,517 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:16:57,518 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:17:05,392 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:17:05,393 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:17:05,437 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:17:05,439 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:17:14,420 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:17:14,421 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:17:14,470 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:17:14,471 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:17:23,467 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:17:23,468 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:17:23,522 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:17:23,522 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:17:24,574 - INFO - Incoming request: POST http://192.168.1.207:9000/iclock/cdata?SN=COVO240160167&table=ATTLOG&Stamp=9999 from 192.168.1.71
+2025-04-22 14:17:24,574 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*', 'content-type': 'text/plain', 'content-length': '47'}
+2025-04-22 14:17:24,653 - INFO - HTTP Request: POST http://localhost/iclock/cdata?SN=COVO240160167&table=ATTLOG&Stamp=9999 "HTTP/1.1 200 OK"
+2025-04-22 14:17:24,654 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:17:24,655 - INFO - Scan - PIN: 99999, Name: Test, Time: 2025-04-22 14:17:21
+2025-04-22 14:17:36,911 - INFO - LINE response: 200, {"sentMessages":[{"id":"557800409738510423","quoteToken":"RvvskSXKPoMZhKua-jHZbg66ixyWxjP0sxDRklyAAZqcXvNIvl4MgQTpfCH6CkxjvcPh0xxQOSBXSKWJ6NuXTkIlEAKB416m_IpNo1chnxwpiYtIdXwVV9d0v6qIYv8oj6I3sL39Nl6gatrq_uBwsg"}]}
+2025-04-22 14:17:36,912 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167&INFO=ZAM180-NF28VA-Ver3.0.42,84,133,3168,192.168.1.71,10,39,12,78,11110,0,1,0 from 192.168.1.71
+2025-04-22 14:17:36,912 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:17:36,929 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/ping?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:17:36,929 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:17:36,952 - INFO - HTTP Request: GET http://localhost/iclock/ping?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:17:36,952 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:17:37,037 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167&INFO=ZAM180-NF28VA-Ver3.0.42,84,133,3168,192.168.1.71,10,39,12,78,11110,0,1,0 "HTTP/1.1 200 OK"
+2025-04-22 14:17:37,038 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:17:45,428 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:17:45,428 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:17:45,478 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:17:45,478 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:17:56,971 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/ping?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:17:56,971 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:17:56,990 - INFO - HTTP Request: GET http://localhost/iclock/ping?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:17:56,991 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:17:57,116 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:17:57,117 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:17:57,170 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:17:57,171 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:18:06,432 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:18:06,432 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:18:06,481 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:18:06,482 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:18:16,415 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:18:16,415 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:18:16,576 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:18:16,577 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:18:26,033 - INFO - Incoming request: POST http://192.168.1.207:9000/iclock/cdata?SN=COVO240160167&table=ATTLOG&Stamp=9999 from 192.168.1.71
+2025-04-22 14:18:26,033 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*', 'content-type': 'text/plain', 'content-length': '47'}
+2025-04-22 14:18:26,118 - INFO - HTTP Request: POST http://localhost/iclock/cdata?SN=COVO240160167&table=ATTLOG&Stamp=9999 "HTTP/1.1 200 OK"
+2025-04-22 14:18:26,118 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:18:26,119 - INFO - Scan - PIN: 99999, Name: Test, Time: 2025-04-22 14:18:22
+2025-04-22 14:18:38,369 - INFO - LINE response: 200, {"sentMessages":[{"id":"557800512952205433","quoteToken":"B1-pLSDx59p7nDelLGHqF8QiQKCauehycqFmWtXR_2YkIhgOjwAFPMa8oIEg5K_WSu-Srl6jQAha76ryXYLnDD2xcRCSLh8V4iaBHlXtIADsz65BtmippI-JOjIEp9Dae116E2gOXHg-WHctpDnQpg"}]}
+2025-04-22 14:18:38,372 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167&INFO=ZAM180-NF28VA-Ver3.0.42,84,133,3169,192.168.1.71,10,39,12,78,11110,0,1,0 from 192.168.1.71
+2025-04-22 14:18:38,372 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:18:38,387 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/ping?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:18:38,387 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:18:38,421 - INFO - HTTP Request: GET http://localhost/iclock/ping?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:18:38,422 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:18:38,600 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167&INFO=ZAM180-NF28VA-Ver3.0.42,84,133,3169,192.168.1.71,10,39,12,78,11110,0,1,0 "HTTP/1.1 200 OK"
+2025-04-22 14:18:38,601 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:18:47,446 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:18:47,446 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:18:47,498 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:18:47,498 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:18:58,448 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:18:58,450 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:18:58,462 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/ping?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:18:58,462 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:18:58,482 - INFO - HTTP Request: GET http://localhost/iclock/ping?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:18:58,482 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:18:58,510 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:18:58,511 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:19:08,399 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:19:08,399 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:19:08,444 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:19:08,445 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:19:18,451 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:19:18,451 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:19:18,499 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:19:18,500 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:19:28,398 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:19:28,398 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:19:28,457 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:19:28,459 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:19:38,480 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:19:38,480 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:19:38,540 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:19:38,541 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:19:48,451 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:19:48,452 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:19:48,499 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:19:48,500 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:19:59,398 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:19:59,399 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:19:59,447 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:19:59,448 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:20:09,494 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:20:09,494 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:20:09,544 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:20:09,544 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:20:19,451 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:20:19,453 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:20:19,607 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:20:19,608 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:20:29,410 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:20:29,411 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:20:29,463 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:20:29,463 - INFO - Forwarded to http://localhost:80 - Status: 200
+2025-04-22 14:20:39,450 - INFO - Incoming request: GET http://192.168.1.207:9000/iclock/getrequest?SN=COVO240160167 from 192.168.1.71
+2025-04-22 14:20:39,452 - INFO - Headers: {'host': '192.168.1.207:9000', 'user-agent': 'iClock Proxy/1.09', 'connection': 'close', 'accept': '*/*'}
+2025-04-22 14:20:39,614 - INFO - HTTP Request: GET http://localhost/iclock/getrequest?SN=COVO240160167 "HTTP/1.1 200 OK"
+2025-04-22 14:20:39,615 - INFO - Forwarded to http://localhost:80 - Status: 200

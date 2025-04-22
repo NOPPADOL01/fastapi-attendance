@@ -144,7 +144,7 @@ async def proxy_and_log_traffic(request: Request, call_next):
 
             # ส่งข้อความแจ้งเตือน LINE
             user_id = "U0463b655fa77fba3115f1018ba5b1f82"  # ตัวอย่าง user ID
-            message = f"การสแกน - PIN: {data['pin']}, ชื่อ: {name}, เวลา: {data['time']}"
+            message = f"แจ้งเตือนการสแกน - PIN: {data['pin']}, ชื่อ: {name}, เวลา: {data['time']}"
             send_line_message(user_id, message)
         
         # ส่งกลับผลการ proxy
