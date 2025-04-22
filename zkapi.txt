@@ -1,0 +1,85 @@
+from flask import Flask, request, Response
+from datetime import datetime
+import csv
+import os
+
+app = Flask(__name__)
+
+# Configuration
+LOG_FILE = "attendance_log.csv"
+DEFAULT_NAME = "Unknown"  # Name to show when not available
+
+# Initialize log file with headers
+if not os.path.exists(LOG_FILE):
+    with open(LOG_FILE, 'w') as f:
+        f.write("ServerTime,DeviceSN,PIN,EmployeeName,DeviceTime,Status,RawData\n")
+
+def parse_device_data(raw_data):
+    """Parse ZKTeco device data with robust error handling"""
+    try:
+        parts = raw_data.strip().split('\t')
+        
+        # Handle different possible formats
+        if len(parts) >= 4 and ':' in parts[2]:  # PIN\tName\tTime\tStatus
+            return {
+                'pin': parts[0],
+                'name': parts[1] if parts[1] else DEFAULT_NAME,
+                'time': parts[2],
+                'status': parts[3]
+            }
+        elif len(parts) >= 3 and ':' in parts[1]:  # PIN\tTime\tStatus
+            return {
+                'pin': parts[0],
+                'name': DEFAULT_NAME,
+                'time': parts[1],
+                'status': parts[2]
+            }
+        elif len(parts) >= 3 and parts[1].isdigit():  # PIN\tStatus\tTime
+            return {
+                'pin': parts[0],
+                'name': DEFAULT_NAME,
+                'time': parts[2],
+                'status': parts[1]
+            }
+    except Exception:
+        pass
+    return None
+
+@app.route('/iclock/cdata', methods=['POST'])
+def handle_attendance():
+    """Process attendance data from device"""
+    sn = request.args.get('SN', 'UNKNOWN')
+    table = request.args.get('table')
+    
+    if table == 'ATTLOG':
+        raw_data = request.get_data(as_text=True)
+        data = parse_device_data(raw_data)
+        
+        if data:
+            log_entry = [
+                datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                sn,
+                data['pin'],
+                data['name'],
+                data['time'],
+                data['status'],
+                raw_data.replace('\t', '|')  # Store raw data for debugging
+            ]
+            
+            with open(LOG_FILE, 'a', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow(log_entry)
+            
+            print(f"Scan - PIN: {data['pin']}, Name: {data['name']}, Time: {data['time']}")
+        else:
+            print(f"Unparseable data: {raw_data}")
+
+    return Response("OK")
+
+@app.route('/iclock/getrequest', methods=['GET'])
+def handle_device_request():
+    """Respond to device polls"""
+    return Response("OK")
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5555, debug=True)
