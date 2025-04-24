@@ -1,8 +1,9 @@
-from fastapi import FastAPI, Request, Response
+from fastapi import FastAPI, Request
 import logging
 from datetime import datetime
 import csv
 import requests
+import os
 
 app = FastAPI()
 
@@ -16,7 +17,8 @@ logging.basicConfig(
     ]
 )
 
-LINE_CHANNEL_ACCESS_TOKEN = 'i3hUHF2P0LgI26XnRTVEdo3AexIyn1RGLMVdzqP5ZGU7zmviy7xkqRJi1UAFWzIGyJtMVb+rpya3dP+xbSHktI2tsZTaMmnvKMne3JmdM7xCz6fbOljGaauJLbhpZ0OozM7RQGA0yZGRBqIv4MB52gdB04t89/1O/w1cDnyilFU='
+# ใช้ environment variable สำหรับ LINE_CHANNEL_ACCESS_TOKEN
+LINE_CHANNEL_ACCESS_TOKEN = os.getenv('LINE_CHANNEL_ACCESS_TOKEN', 'default_access_token')
 LOG_FILE = "attendance_log.csv"
 DEFAULT_NAME = "Unknown"
 
@@ -50,8 +52,12 @@ def send_line_message(user_id, message):
             'text': message
         }]
     }
-    response = requests.post(url, json=body, headers=headers)
-    logging.info(f"LINE response: {response.status_code}, {response.text}")
+    try:
+        response = requests.post(url, json=body, headers=headers)
+        response.raise_for_status()
+        logging.info(f"LINE response: {response.status_code}, {response.text}")
+    except requests.exceptions.RequestException as e:
+        logging.error(f"Failed to send message to LINE: {e}")
 
 # ฟังก์ชั่นแยกข้อมูลจากเครื่องสแกน
 def parse_device_data(raw_data):
@@ -82,16 +88,20 @@ def parse_device_data(raw_data):
         logging.error(f"Failed to parse device data: {e}")
     return None
 
-# Endpoint สำหรับรับ POST จาก ZKTeco
-@app.post("/scan")
+# Endpoint สำหรับรับ GET และ POST จากเครื่อง ZKTeco
+@app.api_route("/scan", methods=["GET", "POST", "HEAD"])
 async def receive_scan(request: Request):
+    method = request.method
     raw_data = await request.body()
-    text_data = raw_data.decode('utf-8')
-    logging.info(f"Received raw data: {text_data}")
+    text_data = raw_data.decode('utf-8') if raw_data else ''
+    logging.info(f"Received {method} request at /scan - Data: {text_data}")
 
+    if method == "GET":
+        return {"status": "ok", "message": "GET received from device"}
+
+    # ประมวลผล POST
     data = parse_device_data(text_data)
     if data:
-        # หาชื่อจาก PIN
         name = PIN_NAME_MAP.get(data['pin'], data['name'])
 
         # บันทึกลงไฟล์ CSV
@@ -103,11 +113,13 @@ async def receive_scan(request: Request):
             data['status'],
             text_data.replace('\t', '|')
         ]
-        with open(LOG_FILE, 'a', newline='', encoding='utf-8') as f:
-            writer = csv.writer(f)
-            writer.writerow(log_entry)
-
-        logging.info(f"Scan - PIN: {data['pin']}, Name: {name}, Time: {data['time']}")
+        try:
+            with open(LOG_FILE, 'a', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f)
+                writer.writerow(log_entry)
+            logging.info(f"Scan - PIN: {data['pin']}, Name: {name}, Time: {data['time']}")
+        except Exception as e:
+            logging.error(f"Failed to write to log file: {e}")
 
         # ส่ง LINE แจ้งเตือน
         user_id = "U0463b655fa77fba3115f1018ba5b1f82"
@@ -123,7 +135,9 @@ async def receive_scan(request: Request):
 def root():
     return {"status": "ok", "message": "FastAPI Attendance Running"}
 
-# ใช้ตอนรัน local (render ไม่ต้องใช้)
+# สำหรับรัน local
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=10000)
+    port = int(os.getenv("PORT", 10000))  # ถ้าไม่มี PORT ใน environment จะ fallback เป็น 10000
+    uvicorn.run(app, host="0.0.0.0", port=port)
+
